@@ -1,0 +1,54 @@
+2019-03-05T14:54:51+00:00 CRITICAL Uncaught Error: Call to undefined function melodyschool_prepare_socials() in /var/www/vhosts/zhiano.ancorathemes.com/melody.ancorathemes.com/wp-content/plugins/trx_utils/shortcodes/trx_basic/socials.php:68
+Stack trace:
+#0 /var/www/vhosts/zhiano.ancorathemes.com/melody.ancorathemes.com/wp-content/themes/melodyschool/footer.php(134): melodyschool_sc_socials(Array)
+#1 /var/www/vhosts/zhiano.ancorathemes.com/melody.ancorathemes.com/wp-includes/template.php(704): require_once('/var/www/vhosts...')
+#2 /var/www/vhosts/zhiano.ancorathemes.com/melody.ancorathemes.com/wp-includes/template.php(653): load_template('/var/www/vhosts...', true)
+#3 /var/www/vhosts/zhiano.ancorathemes.com/melody.ancorathemes.com/wp-includes/general-template.php(76): locate_template(Array, true)
+#4 /var/www/vhosts/zhiano.ancorathemes.com/melody.ancorathemes.com/wp-content/plugins/woocommerce/templates/single-product.php(59): get_footer('shop')
+#5 /var/www/vhosts/zhiano.ancorathemes.com/melody.ancorathemes.com/wp-includes/template-loader.php(77 in /var/www/vhosts/zhiano.ancorathemes.com/melody.ancorathemes.com/wp-content/plugins/trx_utils/shortcodes/trx_basic/socials.php on line 68
+
+2019-03-05T14:55:11+00:00 CRITICAL Uncaught Error: Call to undefined function melodyschool_prepare_socials() in /var/www/vhosts/zhiano.ancorathemes.com/melody.ancorathemes.com/wp-content/plugins/trx_utils/shortcodes/trx_basic/socials.php:68
+Stack trace:
+#0 /var/www/vhosts/zhiano.ancorathemes.com/melody.ancorathemes.com/wp-includes/shortcodes.php(325): melodyschool_sc_socials(Array, '', 'trx_socials')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/vhosts/zhiano.ancorathemes.com/melody.ancorathemes.com/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(trx_so...', 'do_shortcode_ta...', '[trx_socials si...')
+#3 /var/www/vhosts/zhiano.ancorathemes.com/melody.ancorathemes.com/wp-content/themes/melodyschool/fw/core/core.wp.php(2271): do_shortcode('[trx_socials si...')
+#4 /var/www/vhosts/zhiano.ancorathemes.com/melody.ancorathemes.com/wp-content/themes/melodyschool/plugins/support.team.php(530): melodyschool_do_shortcode('[trx_socials si...')
+#5 /var/www/vhosts/zhiano.ancorathemes.com/melody.ancorathemes.com/wp-includes/s in /var/www/vhosts/zhiano.ancorathemes.com/melody.ancorathemes.com/wp-content/plugins/trx_utils/shortcodes/trx_basic/socials.php on line 68
+
+2019-03-05T14:56:27+00:00 CRITICAL Uncaught Error: Call to undefined function melodyschool_get_twitter_data() in /var/www/vhosts/zhiano.ancorathemes.com/melody.ancorathemes.com/wp-content/plugins/trx_utils/widgets/twitter.php:47
+Stack trace:
+#0 /var/www/vhosts/zhiano.ancorathemes.com/melody.ancorathemes.com/wp-includes/class-wp-widget.php(378): melodyschool_widget_twitter->widget(Array, Array)
+#1 /var/www/vhosts/zhiano.ancorathemes.com/melody.ancorathemes.com/wp-includes/widgets.php(770): WP_Widget->display_callback(Array, Array)
+#2 /var/www/vhosts/zhiano.ancorathemes.com/melody.ancorathemes.com/wp-content/themes/melodyschool/footer.php(44): dynamic_sidebar('sidebar_footer')
+#3 /var/www/vhosts/zhiano.ancorathemes.com/melody.ancorathemes.com/wp-includes/template.php(704): require_once('/var/www/vhosts...')
+#4 /var/www/vhosts/zhiano.ancorathemes.com/melody.ancorathemes.com/wp-includes/template.php(653): load_template('/var/www/vhosts...', true)
+#5 /var/www/vhosts/zhiano.ancorathemes.com/melody.ancorathemes.com/wp-includes/general-template.php(76 in /var/www/vhosts/zhiano.ancorathemes.com/melody.ancorathemes.com/wp-content/plugins/trx_utils/widgets/twitter.php on line 47
+
+2019-03-05T14:56:38+00:00 CRITICAL Uncaught Error: Call to undefined function melodyschool_get_twitter_data() in /var/www/vhosts/zhiano.ancorathemes.com/melody.ancorathemes.com/wp-content/plugins/trx_utils/widgets/twitter.php:47
+Stack trace:
+#0 /var/www/vhosts/zhiano.ancorathemes.com/melody.ancorathemes.com/wp-includes/class-wp-widget.php(378): melodyschool_widget_twitter->widget(Array, Array)
+#1 /var/www/vhosts/zhiano.ancorathemes.com/melody.ancorathemes.com/wp-includes/widgets.php(770): WP_Widget->display_callback(Array, Array)
+#2 /var/www/vhosts/zhiano.ancorathemes.com/melody.ancorathemes.com/wp-content/themes/melodyschool/footer.php(44): dynamic_sidebar('sidebar_footer')
+#3 /var/www/vhosts/zhiano.ancorathemes.com/melody.ancorathemes.com/wp-includes/template.php(704): require_once('/var/www/vhosts...')
+#4 /var/www/vhosts/zhiano.ancorathemes.com/melody.ancorathemes.com/wp-includes/template.php(653): load_template('/var/www/vhosts...', true)
+#5 /var/www/vhosts/zhiano.ancorathemes.com/melody.ancorathemes.com/wp-includes/general-template.php(76 in /var/www/vhosts/zhiano.ancorathemes.com/melody.ancorathemes.com/wp-content/plugins/trx_utils/widgets/twitter.php on line 47
+
+2019-03-05T14:57:32+00:00 CRITICAL Uncaught Error: Call to undefined function melodyschool_prepare_socials() in /var/www/vhosts/zhiano.ancorathemes.com/melody.ancorathemes.com/wp-content/plugins/trx_utils/shortcodes/trx_basic/socials.php:68
+Stack trace:
+#0 /var/www/vhosts/zhiano.ancorathemes.com/melody.ancorathemes.com/wp-includes/shortcodes.php(325): melodyschool_sc_socials(Array, '', 'trx_socials')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/vhosts/zhiano.ancorathemes.com/melody.ancorathemes.com/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(trx_so...', 'do_shortcode_ta...', '[trx_socials si...')
+#3 /var/www/vhosts/zhiano.ancorathemes.com/melody.ancorathemes.com/wp-content/themes/melodyschool/fw/core/core.wp.php(2271): do_shortcode('[trx_socials si...')
+#4 /var/www/vhosts/zhiano.ancorathemes.com/melody.ancorathemes.com/wp-content/themes/melodyschool/plugins/support.team.php(530): melodyschool_do_shortcode('[trx_socials si...')
+#5 /var/www/vhosts/zhiano.ancorathemes.com/melody.ancorathemes.com/wp-includes/s in /var/www/vhosts/zhiano.ancorathemes.com/melody.ancorathemes.com/wp-content/plugins/trx_utils/shortcodes/trx_basic/socials.php on line 68
+
+2019-03-05T14:57:57+00:00 CRITICAL Uncaught Error: Call to undefined function melodyschool_prepare_socials() in /var/www/vhosts/zhiano.ancorathemes.com/melody.ancorathemes.com/wp-content/plugins/trx_utils/shortcodes/trx_basic/socials.php:68
+Stack trace:
+#0 /var/www/vhosts/zhiano.ancorathemes.com/melody.ancorathemes.com/wp-includes/shortcodes.php(325): melodyschool_sc_socials(Array, '', 'trx_socials')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/vhosts/zhiano.ancorathemes.com/melody.ancorathemes.com/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(trx_so...', 'do_shortcode_ta...', '[trx_socials si...')
+#3 /var/www/vhosts/zhiano.ancorathemes.com/melody.ancorathemes.com/wp-content/themes/melodyschool/fw/core/core.wp.php(2271): do_shortcode('[trx_socials si...')
+#4 /var/www/vhosts/zhiano.ancorathemes.com/melody.ancorathemes.com/wp-content/themes/melodyschool/plugins/support.team.php(530): melodyschool_do_shortcode('[trx_socials si...')
+#5 /var/www/vhosts/zhiano.ancorathemes.com/melody.ancorathemes.com/wp-includes/s in /var/www/vhosts/zhiano.ancorathemes.com/melody.ancorathemes.com/wp-content/plugins/trx_utils/shortcodes/trx_basic/socials.php on line 68
+

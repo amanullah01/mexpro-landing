@@ -1,0 +1,80 @@
+Version 1.6.5
+    Added:
+    - WP 5.5 compatibility
+    - PHP 7.4 compatibility
+
+Version 1.6.4
+    Fixed:
+    - Update plugins to their latest versions
+    - Compatibility with WP 5.4.1
+    - Compatibility with PHP 7.4
+
+    Added:
+    - Elegro Crypto Payment plugin
+    - ThemeREX Updater plugin
+
+Version 1.6.3
+    Fixed:
+    - Compatibility with Slider Revolution 6+
+    - Update plugins to their latest versions
+
+    Added:
+    - Instagram Widget by WPZOOM plugin
+
+Version 1.6.2
+        Added:
+    		- Compatibility with WP 5.1.1
+    		- Compatibility with PHP7.3
+    	Fixed:
+            - Improve theme styles
+
+Version 1.6.1
+    	Added:
+    		- Compatibility with WP 5.1
+    		- Compatibility with PHP7.2
+    		- Contact Form 7
+
+        Fixed:
+            - Update plugins to their latest versions
+            - Improve theme styles
+            - Update scripts  libraries
+
+        Changed:
+    		- Update demo data
+
+Version 1.6
+    Added forms GDPR-compliance
+	Added GDPR Framework plugin
+	Added Alert to Demo data installation
+	Compatibility with Gutenberg and other PageBuilders
+	Updated plugins to their latest versions
+	Demo data updated
+	Documentation updated 
+
+Version 1.5.1
+    Fixed:
+    - Team member shortcode
+
+Version 1.5
+    Fixed autoplay video issue
+    Add WordPress 4.1 compatibility
+    Updated plugins to their latest versions
+
+Version 1.4
+    Plugins updated
+    Documentation updated
+    Dummy data import fixed
+
+Version 1.3
+    Compatibility with WooCommerce 3.0+ is added
+    Plugins included in the theme, updated to their latest versions
+
+Version 1.2
+    Updated Revolution Slider to its latest version.
+    Fixed issues with color schemes
+
+Version 1.1
+	Fixed issue with responsive menu
+
+Version 1.0
+	Release

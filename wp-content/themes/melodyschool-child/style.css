@@ -1,0 +1,39 @@
+@charset 'utf-8';
+/*
+ Theme Name:   MelodySchool Child
+ Theme URI:    http://melody.ancorathemes.com/
+ Description:  MelodySchool - Fully Responsive and Mobile Friendly theme
+ Author:       AncoraThemes
+ Author URI:   http://ancorathemes.com/
+ Template:     melodyschool
+ Version:      1.1
+ Tags:         light, inheritable theme-options
+ Text Domain:  melodyschool
+*/
+
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+/*
+#e50000
+#0b1f64
+*/
+.top_panel_wrap{border-top: 5px solid #0b1f64}
+.scheme_original .top_panel_inner_style_5 .top_panel_top{display: none;}
+.scheme_original .top_panel_inner_style_5 .menu_main_nav>li.bordered>a:hover{
+	color:#ffffff!important;
+}
+.scheme_original .sc_button.sc_button_style_filled.style_color_dark_hover {
+	background-color: #081545!important;
+	border-color: #081545!important;
+	color: #fff!important;
+}
+.scheme_original .sc_button.sc_button_style_filled.style_color_dark_hover:hover{
+	color: #fff!important;
+    background-color: transparent!important;
+    border-color: #fff!important;
+}
+.scheme_original .menu_main_nav>li>a:hover,.scheme_original .menu_main_nav>a:hover, .scheme_original .menu_main_nav>li.sfHover>a, .scheme_original .menu_main_nav>li#blob, .scheme_original .menu_main_nav>li.current-menu-item>a, .scheme_original .menu_main_nav>li.current-menu-parent>a, .scheme_original .menu_main_nav>li.current-menu-ancestor>a {
+	color: #e50000!important;
+}
+.scheme_original input[type="submit"]:hover, .scheme_original input[type="reset"]:hover, .scheme_original input[type="button"]:hover, .scheme_original button:hover, .scheme_original .btn-join:hover, .scheme_original #btn-join:hover, .scheme_original a#quiz_continue_link:hover, .scheme_original .sc_button.sc_button_style_filled:hover{color: #ffffff!important}
